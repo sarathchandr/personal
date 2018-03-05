@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mca003.intentlogin.MainActivity">
+
+    <TextView
+        android:id="@+id/loginTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:textSize="100dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <EditText
+        android:id="@+id/idname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/loginTxt"
+        android:layout_margin="20dp"
+        android:fontFamily="@android:color/holo_orange_dark"
+        android:hint="name"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/idpas"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idname"
+        android:layout_margin="20dp"
+        android:fontFamily="@android:color/holo_orange_dark"
+        android:hint="password"
+        android:inputType="textPassword
+"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idpas"
+        android:layout_margin="60dp"
+        android:background="@android:color/white"
+        android:fontFamily="cursive"
+        android:text="login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Register"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+    />
+
+
+</RelativeLayout>
